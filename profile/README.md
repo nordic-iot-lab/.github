@@ -1,6 +1,6 @@
 # Nordic IoT Lab
 
-![Nordic IoT Lab architecture](assets/nordic-iot-lab-architecture.svg)
+![Nordic IoT Lab architecture](assets/nordic-iot-lab-overview.png)
 
 > 中文：Nordic IoT Lab 是一套围绕 nRF9161 / NB-IoT 的端到端实验平台，覆盖固件、MQTT/CoAP 服务器和 Web 可视化面板。
 >
@@ -35,8 +35,14 @@ nRF9161 firmware
 ## Versioning / 版本管理
 
 - Firmware official NB-IoT test baseline: `official-nbiot-test-v0.2.0`
-- Firmware documentation/organization baseline: `v0.2.1`
-- Dashboard baseline: `v0.9.1`
-- Broker baseline: `v0.1.1`
+- Firmware documentation/organization baseline: `v0.2.2`
+- Dashboard baseline: `v0.9.2`
+- Broker baseline: `v0.1.2`
 
 The stack is intentionally split into three repositories so firmware, server, and dashboard releases can be tested and rolled back independently.
+
+## Visual Identity / 视觉资产
+
+- Organization avatar candidate: [`profile/assets/org-avatar.png`](assets/org-avatar.png)
+- Organization overview figure: [`profile/assets/nordic-iot-lab-overview.png`](assets/nordic-iot-lab-overview.png)
+- Editable exports are kept as SVG/PDF next to the PNG files.
